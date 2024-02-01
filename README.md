@@ -44,3 +44,11 @@ test_accuracy = accuracy_score(model.predict(X_test), Y_test)
 
 print(f'Accuracy on Training Data: {train_accuracy}')
 print(f'Accuracy on Test Data: {test_accuracy}')
+
+#Install the required dependencies:
+pip install -r requirements.txt
+
+#Usage
+To run the Streamlit app, use the following command:
+bash
+streamlit run app.py
