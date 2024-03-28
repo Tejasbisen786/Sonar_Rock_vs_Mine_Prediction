@@ -52,13 +52,13 @@ import streamlit as st
 #icon 
 from PIL import Image
 # Loading Image using PIL
-im = Image.open('./assets/predictive.png')
+img = Image.open('./assets/predictive.png')
 
 #title of application 
 st.set_page_config(
     layout="wide" , 
     page_title="Sonar Rock Vs Mine Prediction " ,
-     page_icon = im)
+     page_icon = img)
 
 
 
