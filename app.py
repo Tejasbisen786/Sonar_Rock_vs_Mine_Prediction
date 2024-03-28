@@ -146,6 +146,8 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
             bottom: 0;
             width: 90vw;
             text-align: center;
+            z-index:1;
+           
         }}
     </style>
 """
